@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sqlite.example.com.finalprojectforcourse">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".welcomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".englishProfile" />
+        <activity android:name=".sportsProfile" />
+        <activity android:name=".firstNewsSports" />
+        <activity android:name=".secondNewsSports" />
+        <activity android:name=".thirdNewsSports" />
+        <activity android:name=".fourNewsSports" />
+        <activity android:name=".firstSportsYoutube" />
+        <activity android:name=".secondSportsYoutube" />
+        <activity android:name=".firstNewsbangla" />
+        <activity android:name=".secondNewsbangla" />
+        <activity android:name=".thirdNewsbangla" />
+        <activity android:name=".fourNewsbangla" />
+        <activity android:name=".firstBanglaYoutube" />
+        <activity android:name=".secondBanglaYoutube" />
+        <activity android:name=".firstNewsEnglish" />
+        <activity android:name=".secondNewsEnglish" />
+        <activity android:name=".thirdNewsEnglish" />
+        <activity android:name=".fourNewsEnglish" />
+        <activity android:name=".firstEnglishYoutube" />
+        <activity android:name=".secondEnglishYoutube" />
+        <activity android:name=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>
